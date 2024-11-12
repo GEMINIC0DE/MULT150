@@ -4,6 +4,19 @@ public class PrefabGenerator : MonoBehaviour
 {
     public GameObject prefab;
 
+    void Start()
+    {
+        int sum = 0;
+
+        for(int count = 1; count <= 10; count++)
+        {
+            sum += count;
+            Instantiate(prefab, transform.position, transform.rotation);
+            //transform.Translate(-20f, 0f, -10f);
+        }
+
+    }
+
     // Update is called once per frame
     void Update()
     {
