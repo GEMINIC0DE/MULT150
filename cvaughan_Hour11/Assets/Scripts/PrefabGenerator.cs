@@ -12,7 +12,6 @@ public class PrefabGenerator : MonoBehaviour
 
             Instantiate(prefab, placement, transform.rotation);
             placement = placement + new Vector3(4, 0, 0);
-            //transform.Translate(-20f, 0f, -10f);
         }
 
     }
