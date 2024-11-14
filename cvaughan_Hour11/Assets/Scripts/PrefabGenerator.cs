@@ -6,12 +6,12 @@ public class PrefabGenerator : MonoBehaviour
 
     void Start()
     {
-        int sum = 0;
-
+        Vector3 placement = new Vector3(-20, 0, -10);
         for(int count = 1; count <= 10; count++)
         {
-            sum += count;
-            Instantiate(prefab, transform.position, transform.rotation);
+
+            Instantiate(prefab, placement, transform.rotation);
+            placement = placement + new Vector3(4, 0, 0);
             //transform.Translate(-20f, 0f, -10f);
         }
 
