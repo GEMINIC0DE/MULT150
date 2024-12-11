@@ -30,6 +30,13 @@ Y8,        88 ,adPPPPP88 88      88      88 8PP""""""" Y8,           88         
 
 
 CHANGES MADE TO GAUNTLET RUNNER:
-1.)
-2.)
+
+1.) Added light effect to square obstacle
+2.) Changed Powerup particle effect start color to be random between 2 colors and added a green color
+3.) Increased amount of particles in emission
+4.) Changed particle shape arc to ping-pong and sped up start speed
+
+Issues:
+Tried to rotate square obstacle prefab 90 degrees on X axis, but it seems it won't spawn in. When trying to change the shape, something makes it shoot off to the side and destroy itself.
+Unsure if this is a conflict with the scripting transforms or not, but almost any changes make it fly off the level.
 */
