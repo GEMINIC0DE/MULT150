@@ -5,8 +5,14 @@ using UnityEngine;
 public class BulletController : MonoBehaviour
 {
     public float damage;
-    public float lifeTime = 3;
+    public float lifeTime = 2;
 
+    AudioSource audioSourceImpact;
+
+    void Start()
+    {
+        audioSourceImpact = GetComponent<AudioSource>();
+    }
 
     private void Update()
     {
@@ -16,6 +22,7 @@ public class BulletController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 
 
@@ -23,7 +30,13 @@ public class BulletController : MonoBehaviour
     {
         if (other.GetComponent<HotLavaRock>() != null)
             other.GetComponent<HotLavaRock>().health -= damage;
+
+        audioSourceImpact.Play();        
+
+        if(audioSourceImpact.isPlaying == false)
+            Destroy(gameObject);
+     
+
         
-        Destroy(gameObject);
     }
 }

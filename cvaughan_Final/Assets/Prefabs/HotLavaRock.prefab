@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1201192161730487045}
   - component: {fileID: 1201192161730487044}
   - component: {fileID: 1201192161730487096}
-  - component: {fileID: 1201192161730487097}
   m_Layer: 0
   m_Name: HotLavaRock
   m_TagString: Untagged
@@ -94,7 +93,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201192161730487042}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -112,16 +111,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 15
---- !u!135 &1201192161730487097
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201192161730487042}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: -0.00000047683716, z: 0.0000019073486}
