@@ -1747,7 +1747,7 @@ GameObject:
   - component: {fileID: 890349087}
   - component: {fileID: 890349086}
   m_Layer: 0
-  m_Name: Snow...or Ash? (Particle Effect)
+  m_Name: Snow...or Ash?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
