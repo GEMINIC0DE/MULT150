@@ -23,7 +23,9 @@
 9.) Raised, lowered, and arranged terrain to create more obvious borders and walls. Made slight tweaks to terrain that player jumps on to make some areas a little easier.
 10.) Extendded Hazard detector radious to catch if player goes out of bounds.
 11.) Added a screen snow particle effect.... or is it ash?
-12.) Added FPS Limiter script set to 60 FPS in order to optimize performance as when it was originally trying to hit 350+ FPS, the animation of the doughnut was slow and choppy.
+12.) Added FPS Limiter script set to 60 FPS in order to optimize performance as when it was originally trying to hit 350+ FPS, the animation of the doughnut was slow and choppy. Also adjusted some
+     texture/material properties such as reflections and reduced resolution in attempt to further optimize performance.
+13.) 
 
 Need to haves:
 - extra obstacles
