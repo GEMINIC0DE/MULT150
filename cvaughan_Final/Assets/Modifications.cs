@@ -17,22 +17,20 @@
 4.) Made a fog with a pinkish hue.
 5.) Added and modified skybox to be bigger, bolder, and contain red and orange hues.
 6.) Deleted 2 of the finish zones in order to make one into prefab. Created 2 variants and placed instances of the prefab with different colors.
-7.) Added fire particle system w/ custom created shader that has custom flame material to prefab. Edited many parameters including duration, size, speed, emission, shape, color over lifetime, etc. 
-    Adjusted color for each finish zone to reflect the color of said zone.
-8.) Painted in multiple new textures to smooth out the look of the terrain, including a new lava texture that adds dimension to the volcano and around some rocky terrain.
+7.) Added fire particle system w/ custom created shader that has custom flame material to prefab. Edited many parameters including duration, size, speed, emission, shape,
+    color over lifetime, etc. Adjusted color for each finish zone to reflect the color of said zone.
+8.) Painted in multiple new textures to smooth out the look of the terrain, including a new lava texture that adds dimension to the volcano and around rocky terrain.
 9.) Raised, lowered, and arranged terrain to create more obvious borders and walls. Made slight tweaks to terrain that player jumps on to make some areas a little easier.
 10.) Extendded Hazard detector radious to catch if player goes out of bounds.
 11.) Added a screen snow particle effect.... or is it ash?
-12.) Added FPS Limiter script set to 60 FPS in order to optimize performance as when it was originally trying to hit 350+ FPS, the animation of the doughnut was slow and choppy. Also adjusted some
-     texture/material properties such as reflections and reduced resolution in attempt to further optimize performance.
-13.) 
+12.) Added FPS Limiter script set to 60 FPS in order to optimize performance as it was previously trying to hit 350+ FPS and the animation of the doughnut was slow and choppy. 
+     Also adjusted some texture/material properties such as reflections, and reduced resolution of textures in attempt to further optimize performance.
+13.) Added destructible obstacles
+14.) Added mechanic/scripting where player can throw snowballs w/ left mouse button (shooting bullets mechanic) and destroy certain obstacles.
+15.) Changed audio to more appropriate snowy sounds.
 
-Need to haves:
-- extra obstacles
-    . barriers that respawn player
 
 Nice to haves:
 - Tophat on Player
-- destructible barriers
-- ability to throw snowballs that destroy barriers
+- Audio Source that plays when spawnable object is thrown
 */
