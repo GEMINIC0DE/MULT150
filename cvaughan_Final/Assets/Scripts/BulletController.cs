@@ -21,6 +21,9 @@ public class BulletController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.GetComponent<HotLavaRock>() != null)
+            other.GetComponent<HotLavaRock>().health -= damage;
+        
         Destroy(gameObject);
     }
 }
