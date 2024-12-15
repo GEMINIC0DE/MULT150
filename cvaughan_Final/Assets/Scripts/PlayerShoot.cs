@@ -13,11 +13,19 @@ public class PlayerShoot : MonoBehaviour
     public Transform bulletSpawnTransform;
     public GameObject bulletPrefab;
 
+    //AudioSource audioSource;
+
+    //void Start()
+    //{
+        //audioSource = GetComponent<AudioSource>();
+    //}
+
 
     private void Update()
     {
         if(Input.GetButtonDown("Fire1"))
         {
+            //audioSource.Start();
             Shoot();
         }
         
